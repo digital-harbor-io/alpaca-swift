@@ -1,6 +1,6 @@
 import Foundation
 
-public enum TimeInForce: String, Codable, Hashable {
+public enum TimeInForce: String, Codable, Hashable, CaseIterable {
 	/// A day order is eligible for execution only on the day it is live.
 	///
 	/// By default, the order is only valid during Regular Trading Hours (9:30am - 4:00pm ET).
